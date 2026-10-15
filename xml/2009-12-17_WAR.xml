@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/out/cbml.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cbml="http://www.cbml.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>WAR!</title>
+            <author>Valve Corporation</author>
+            <author>Michael Avon Oeming</author>
+            <!--Was unable to find who specifically wrote this comic. Oeming was the artist, unsure if there's a tag specifically showing that.-->
+         </titleStmt>
+         <publicationStmt>
+            <p>By Valve Corporation. Published December 17th, 2009.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital: no previous source exists.</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="page" n="1">
+            <note type="pageDesc">
+               The Administrator sits in a massive room of screens, giving orders to RED and BLU team over a large intercom.
+            </note>
+            <cbml:panel n="1" characters="Administrator">
+               <cbml:caption type="heading">
+                  One week ago...
+               </cbml:caption>
+               <cbml:balloon type="sound">CLICK</cbml:balloon>
+               <note type="panelDesc">The Administrator clicks a lighter on, and lights a cigarette.</note>
+            </cbml:panel>
+            
+            <cbml:panel n="2" characters="Administrator">
+               <note type="panelDesc">The Administrator smokes the cigarette she lit.</note>
+            </cbml:panel>
+            
+            <cbml:panel n="3" characters="Administrator">
+               <note type="panelDesc">Close up view of The Administrator's eye.</note>
+            </cbml:panel>
+            
+            <cbml:panel n="4" characters="Administrator">
+               <floatingText><body>
+                     <l>BLU</l>
+                     <l>(ALL)</l>
+               </body></floatingText>
+               <cbml:balloon type="sound"><emph rendition="colored blue outlined">CHKT</emph></cbml:balloon>
+               <cbml:balloon type="speech" who="Administrator">
+                  Alert, Blue Team! Our Control Point is being contested!
+               </cbml:balloon>
+               <note type="panelDesc">The Administrator plugs something into an audio jack.</note>
+            </cbml:panel>
+            
+            <cbml:panel n="5" characters="Administrator">
+               <floatingText><body>
+                     <l>RED</l>
+                     <l>(ALL)</l>
+               </body></floatingText>
+               <cbml:balloon type="sound"><emph rendition="colored red outlined">CHKT</emph></cbml:balloon>
+               <cbml:balloon type="speech" who="Administrator">
+                  Well done, Red Team. You have captured the Control Point.
+               </cbml:balloon>
+               <note type="panelDesc">The Administrator plugs something into another audio jack.</note>
+            </cbml:panel>
+            
+            <cbml:panel n="6" characters="Administrator">
+               <floatingText><body>
+                     <l>BLU</l>
+                     <l>(ALL)</l>
+               </body></floatingText>
+               <cbml:balloon type="sound"><emph rendition="colored blue outlined">CHKT</emph></cbml:balloon>
+               <cbml:balloon type="speech" who="Administrator">
+                  Capture our Control Point, Blue Team!
+               </cbml:balloon>
+               <note type="panelDesc">The Administrator plugs into the BLU audio jack again.</note>
+            </cbml:panel>
+            
+            <cbml:panel n="7" characters="Administrator">
+               <floatingText><body>
+                     <l>RED</l>
+                     <l>(ALL)</l>
+               </body></floatingText>
+               <cbml:balloon type="sound"><emph rendition="colored red outlined">CHKT</emph></cbml:balloon>
+               <cbml:balloon type="speech" who="Administrator">
+                  Red Team! Defend our Control Point!
+               </cbml:balloon>
+               <note type="panelDesc">The Administrator plugs into the RED audio jack again.</note>
+            </cbml:panel>
+            
+            <cbml:panel n="8" characters="Administrator">
+               <cbml:balloon type="speech" who="Administrator">
+                  Hm. Well now. What's that Spy up to?
+               </cbml:balloon>
+               <note type="panelDesc">The Administrator sits in front of a center console, plugging into different audio jacks to give out
+               commands. The room is full of screens featuring actual Team Fortress 2 gameplay.</note>
+            </cbml:panel>
+         </div>
+         
+         <div type="page" n="2">
+            <note type="pageDesc">The Administrator gives a command to BLU Team (mirroring Meet The Spy), but gets interrupted by Ms. Pauling</note>
+            <cbml:panel n="1" characters="Administrator">
+               <cbml:balloon type="sound"><emph rendition="colored blue outlined">CHKT</emph></cbml:balloon>
+               <cbml:balloon type="speech" who="Administrator">ALERT!</cbml:balloon>
+               <cbml:balloon type="speech" who="Administrator">A <emph rend="b">Red Spy</emph> is in the base!</cbml:balloon>
+               <note type="panelDesc">The Administrator clutches a microphone as her cigarette falls from her lips</note>
+            </cbml:panel>
+            
+            <cbml:panel n="2" characters="Administrator">
+               <cbml:balloon type="sound">UNPLUG</cbml:balloon>
+               <note type="panelDesc">The Administrator unplugs the microphone from the central console.</note>
+            </cbml:panel>
+            
+            <cbml:panel n="3" characters="Administrator Soldier">
+               <cbml:balloon type="speech" who="Administrator">Ugh.</cbml:balloon>
+               <cbml:balloon type="speech" who="Administrator">The <emph rend="b">SCOUT,</emph> you idiots.</cbml:balloon>
+               <cbml:balloon type="speech" who="Administrator">He's disguised as the <emph rend="b">Scout.</emph></cbml:balloon>
+               <cbml:balloon type="audio" who="Soldier">A Red Spy is in the <emph rend="b">base</emph>?</cbml:balloon>
+               <note type="panelDesc">The Administrator watches BLU attempt to find the RED Spy. Soldier can be heard through the screen.</note>
+            </cbml:panel>
+            
+            <cbml:panel n="4" characters="Administrator">
+               <cbml:balloon type="speech" who="Administrator">Is there a <emph rend="b">problem,</emph> Miss Pauling?</cbml:balloon>
+               <note type="panelDesc">The Administrator sits, smoking her cigarette.</note>
+            </cbml:panel>
+            
+            <cbml:panel n="5" characters="Administrator Pauling">
+               <cbml:balloon type="speech" who="Pauling"><emph rend="mini">Um.</emph></cbml:balloon>
+               <cbml:balloon type="speech" who="Pauling">What... Makes you say-</cbml:balloon>
+               <cbml:balloon type="speech" who="Administrator">Because you're <emph rend="b">hovering.</emph>
+                  And you only hover when there's a <emph rend="b">problem.</emph></cbml:balloon>
+               <cbml:balloon type="speech" who="Administrator">Let's have it.</cbml:balloon>
+               <note type="panelDesc">Miss Pauling speeks to The Administrator, clutching a piece of paper.</note>
+            </cbml:panel>
+            
+            <cbml:panel n="6" characters="Administrator Pauling">
+               <cbml:balloon type="speech" who="Pauling">We did a background check on the mercenaries.</cbml:balloon>
+               <cbml:balloon type="speech" who="Pauling">Standard protocol, nothing-</cbml:balloon>
+               <cbml:balloon type="speech" who="Administrator">Sometime <emph rend="b">today,</emph> please.</cbml:balloon>
+               <note type="panelDesc">Miss Pauling speeks to The Administrator, clutching a piece of paper. The Administrator rolls her eyes.</note>
+            </cbml:panel>
+            
+            <cbml:panel n="7" characters="Administrator Pauling">
+               <cbml:balloon type="speech" who="Pauling"><emph rend="mini">Um.</emph></cbml:balloon>
+               <cbml:balloon type="speech" who="Pauling">It's the... BLU Soldier and RED Demoman.</cbml:balloon>
+               <note type="panelDesc">Miss Pauling speeks to The Administrator, looking at a piece of paper. The Administrator seems intrigued.</note>
+            </cbml:panel>
+         </div>
+         
+         <div type="page" n="3">
+            <note type="pageDesc">Miss Pauling shows The Administrator a bunch of pictures of the BLU Soldier and RED Demoman
+            being friends together.</note>
+            
+            <cbml:panel n="1" characters="Pauling">
+               <cbml:balloon type="speech" who="Pauling">It looks like they've become...</cbml:balloon>
+               <cbml:balloon type="speech" who="Pauling">...<emph rend="b">friends,</emph> Administrator.</cbml:balloon>
+               <note type="panelDesc">Miss Pauling looks quite distraught.</note>
+            </cbml:panel>
+            
+            <cbml:panel n="2" characters="Administrator">
+               <cbml:balloon type="sound">TWITCH</cbml:balloon>
+               <cbml:balloon type="speech" who="Administrator">For how long?</cbml:balloon>
+               <cbml:balloon type="speech" who="Administrator"><emph rend="i">How did we not know about this?</emph></cbml:balloon>
+               <note type="panelDesc">The Administrator's eye twitches as she hears about the news.</note>
+            </cbml:panel>
+            
+            <cbml:panel n="3" characters="Administrator Pauling Soldier Demoman">
+               <cbml:balloon type="speech" who="Pauling">Within the last six months, Administrator.</cbml:balloon>
+               <cbml:balloon type="speech" who="Pauling">As far as we can tell, they met at a projectile weapons expo.</cbml:balloon>
+               <cbml:balloon type="speech" who="Pauling">It, uh... Seems to have blossomed into a lifelong friendship.</cbml:balloon>
+               <note type="panelDesc">The Administrator inspects the images of BLU Soldier and RED Demoman.
+               In order, the pictures feature: 
+               Soldier and Demoman visiting Las Vegas,
+               Soldier and Demoman visiting a large gravel pit,
+               Soldier and Demoman at a basketball game,
+               Soldier and Demoman visiting an eye museum,
+               and Soldier and Demoman out on a boat, fishing.</note>
+            </cbml:panel>
+         </div>
+         
+         <div type="page" n="4">
+            <note type="pageDesc">The Administrator and Miss Pauling discuss what to do.</note>
+            
+            <cbml:panel n="1" characters="Administrator Pauling">
+               <cbml:balloon type="speech" who="Pauling">Heh. You know, forgetting for a minute that we don't condone friendship, it's sort of...</cbml:balloon>
+               <note type="panelDesc">Miss Pauling smiles. The Administrator seethes in rage.</note>
+            </cbml:panel>
+            
+            <cbml:panel n="2" characters="Administrator Pauling">
+               <cbml:balloon type="speech" who="Pauling">Almost...</cbml:balloon>
+               <cbml:balloon type="speech" who="Pauling">Uh...</cbml:balloon>
+               <note type="panelDesc">Miss Pauling frowns. The Administrator glances at her.</note>
+            </cbml:panel>
+            
+            <cbml:panel n="3" characters="Administrator Pauling">
+               <cbml:balloon type="speech" who="Pauling">Reprehensible. Totally and completely reprehensible.</cbml:balloon>
+               <note type="panelDesc">The Administrator thinks for a moment.</note>
+            </cbml:panel>
+            
+            <cbml:panel n="4" characters="Administrator">
+               <cbml:balloon type="speech" who="Administrator">We are in agreement, Miss Pauling.</cbml:balloon>
+               <note type="panelDesc">The Administrator speaks, cigarette in hand.</note>
+            </cbml:panel>
+               <!--The text wraps between these two panels, technically originating from panel 4 but clearly creating an effect combining the two.-->
+            <cbml:panel n="5" characters="Administrator">
+               <cbml:balloon type="speech" who="Administrator">This friendship is a <emph rend="b">profound</emph> betrayal of our trust.</cbml:balloon>
+               <cbml:balloon type="speech" who="Administrator">Why, friends could easily...</cbml:balloon>
+               <cbml:balloon type="speech" who="Administrator">Could...</cbml:balloon>
+               <cbml:balloon type="speech" who="Administrator"><emph rend="b">Hm.</emph></cbml:balloon>
+               <note type="panelDesc">A close up of The Administrator's face.</note>
+            </cbml:panel>
+            
+            <cbml:panel n="6" characters="Administrator Pauling">
+               <cbml:balloon type="speech" who="Administrator">Miss Pauling, you strike me as the sort of person who would have <emph rend="i">friends.</emph></cbml:balloon>
+               <cbml:balloon type="speech" who="Administrator">Tell me...</cbml:balloon>
+               <cbml:balloon type="speech" who="Administrator">What do they <emph rend="b">do?</emph></cbml:balloon>
+               <cbml:balloon type="speech" who="Pauling">Um. Go skating...</cbml:balloon>
+               <cbml:balloon type="speech" who="Pauling">Look at gun catalogs...</cbml:balloon>
+               <cbml:balloon type="speech" who="Pauling">Sometimes we just talk...</cbml:balloon>
+               <note type="panelDesc">The Administrator looks at her screens as her and Miss Pauling speak.</note>
+            </cbml:panel>
+            
+            <cbml:panel n="7" characters="Administrator">
+               <cbml:balloon type="speech" who="Administrator"><emph rend="b">Talking?</emph> Friendship is even worse than I thought.</cbml:balloon>
+               <cbml:balloon type="speech" who="Administrator">No, this won't do at all.</cbml:balloon>
+               <cbml:balloon type="speech" who="Administrator">If they talk, Miss Pauling, they might talk about work.</cbml:balloon>
+               <cbml:balloon type="speech" who="Administrator">And if they talk about work...</cbml:balloon>
+               <note type="panelDesc">The Administrator blows a puff of smoke as she monologues.</note>
+            </cbml:panel>
+            
+            <cbml:panel n="8" characters="Administrator">
+               <cbml:balloon type="speech" who="Administrator">They might talk about <emph rend="b">us.</emph></cbml:balloon>
+               <note type="panelDesc">Close up of The Administrator's face.</note>
+            </cbml:panel>
+         </div>
+         
+         <div type="page" n="5">
+            <note type="pageDesc">In a smoke filled room, The Administrator and Miss Pauling finish their chat.</note>
+            
+            <cbml:panel n="1" characters="Administrator Pauling">
+               <cbml:balloon type="speech" who="Administrator">This is what we will do.</cbml:balloon>
+               <cbml:balloon type="speech" who="Administrator">Call Mister Hale.</cbml:balloon>
+               <cbml:balloon type="speech" who="Administrator">Tell him that we have some custom orders for him.</cbml:balloon>
+               <cbml:balloon type="speech" who="Administrator">Tell him money is no object.</cbml:balloon>
+               <cbml:balloon type="speech" who="Administrator">And tell him we need them <emph rend="b">right now.</emph></cbml:balloon>
+               <cbml:balloon type="speech" who="Pauling">Yes, ma'am. Anything else?</cbml:balloon>
+               <cbml:balloon type="speech" who="Administrator">Open channels to our two new best friends.</cbml:balloon>
+               <cbml:balloon type="speech" who="Administrator">I have a proposition for each of them.</cbml:balloon>
+               <cbml:balloon type="speech" who="Administrator">In my experience, Miss Pauling, nothing kills a friendship faster...</cbml:balloon>
+               <note type="panelDesc">Sitting in front of her console, The Administrator lays our her plan to Miss Pauling.</note>
+            </cbml:panel>
+            
+            <cbml:panel n="2" characters="Administrator Pauling Soldier Demoman">
+               <cbml:balloon type="speech" who="Administrator">...than a <emph rend="b">healthy competition.</emph></cbml:balloon>
+               <note type="panelDesc">The Administrator looks at pictures of the BLU Soldier and RED Demoman pulled up on monitors. They are
+               screenshots from the game, and not drawn by hand.</note>
+            </cbml:panel>
+         </div>
+         
+         <div type="page" n="6">
+            
+         </div>
+      </body>
+  </text>
+</TEI>

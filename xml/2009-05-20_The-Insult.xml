@@ -20,13 +20,13 @@
     <text>
         <body>
             <div type="panelGrp">
-                <cbml:panel n="1">
+                <cbml:panel n="1" >
                     <cbml:caption type="heading">
                         <emph rendition="b large">THE INSULT</emph> that made a "Jarate Master" out of sniper
                     </cbml:caption>
                 </cbml:panel>
                 
-                <cbml:panel n="2">
+                <cbml:panel n="2" characters="Scout Sniper Spy">
                     <cbml:balloon type="speech" who="Sniper">
                         Hey! We're trying to <emph rendition="b">enjoy</emph> this Capture Point, you bully!
                     </cbml:balloon>
@@ -43,7 +43,7 @@
                     </note>
                 </cbml:panel>
                 
-                <cbml:panel n="3">
+                <cbml:panel n="3" characters="Scout Sniper Spy">
                     <cbml:balloon type="speech" who="py">
                         <l><emph rendition="b">HAW HAW!</emph></l>
                         What are you going to do - run five miles away and <emph rendition="b">shoot</emph> me?
@@ -57,7 +57,7 @@
                     </cbml:balloon>
                 </cbml:panel>
                 
-                <cbml:panel n="4">
+                <cbml:panel n="4" characters="Scout Sniper">
                     <cbml:balloon type="speech" who="Sniper">
                         Why, that gravel-kicking... Always guessing my plans...
                     </cbml:balloon>
@@ -66,7 +66,7 @@
                     </cbml:balloon>
                 </cbml:panel>
                 
-                <cbml:panel n="5">
+                <cbml:panel n="5" characters="Sniper">
                     <cbml:balloon type="speech" who="Sniper">
                         I'm <emph rendition="b">sick</emph> and <emph rendition="b">tired</emph> of getting picked
                         on by <emph rendition="b">MEN MY OWN SIZE!</emph>
@@ -79,7 +79,7 @@
                     </note>
                 </cbml:panel>
                 
-                <cbml:panel n="6">
+                <cbml:panel n="6" characters="Sniper">
                     <cbml:balloon type="speech" who="Sniper">
                         <emph rendition="i">Boy!</emph> Those Saxton Hale Jarate pills <emph rendition="b">TRIPLED</emph> the size of my kidneys!
                     </cbml:balloon>
@@ -101,7 +101,7 @@
                     </note>
                 </cbml:panel>
                 
-                <cbml:panel n="7">
+                <cbml:panel n="7" characters="Sniper Spy">
                     <cbml:balloon type="speech" who="Sniper">
                         You again? <emph rendition="b">Here's</emph> something I owe you!
                     </cbml:balloon>
@@ -118,7 +118,7 @@
                     </note>
                 </cbml:panel>
                 
-                <cbml:panel n="8">
+                <cbml:panel n="8" characters="Spy">
                     <cbml:caption who="Spy">
                         AAAAAAAAAA
                     </cbml:caption>
@@ -126,7 +126,7 @@
                         Spy screams, covered in Jarate.
                     </note>
                 </cbml:panel>
-                <cbml:panel n="9">
+                <cbml:panel n="9" characters="Spy">
                     <cbml:caption who="Spy">
                         <emph rendition="large">AAAAAAA</emph>
                     </cbml:caption>
@@ -135,7 +135,7 @@
                     </note>
                 </cbml:panel>
                 
-                <cbml:panel n="10">
+                <cbml:panel n="10" characters="Scout Sniper Soldier Demoman">
                     <cbml:balloon type="speech" who="Scout">
                         I didn't think you had it "in" you, Sniper!
                     </cbml:balloon>
