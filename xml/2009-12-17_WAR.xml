@@ -267,34 +267,34 @@
                </cbml:balloon>
                <note type="pageDesc"> A plane flies above with a blue sky in the background. </note>
             </cbml:panel>
-            <cbml:panel n="2" characters="Jerry Saxton-Hale">
-               <cbml:balloon type="speech" who="Saxton-Hale"> I know the risks Jerry! But I've got
+            <cbml:panel n="2" characters="Jerry Hale">
+               <cbml:balloon type="speech" who="Hale"> I know the risks Jerry! But I've got
                   <emph rend="b">damn good men down</emph> there who need me! </cbml:balloon>
-               <cbml:balloon type="speech" who="Saxton-Hale"> Tell <emph rend="b"
+               <cbml:balloon type="speech" who="Hale"> Tell <emph rend="b"
                      >them</emph> It's not safe enough! </cbml:balloon>
                <note type="pageDesc"> Saxton Hale prepares to jump out of the plane; holding a bag
                   over his shoulder while Jerry sits in the foreground, flying the plane. </note>
             </cbml:panel>
-            <cbml:panel n="3" characters="Jerry Saxton-Hale">
+            <cbml:panel n="3" characters="Jerry Hale">
                <cbml:balloon type="speech" who="Jerry"> But Sir, I can <emph rend="b"
                      >climb</emph> to a safe altitude. / t will literally take seconds, if you'll
                   just-</cbml:balloon>
                <note type="pageDesc"> Jerry sits in the cockpit, facing away as he flys the plane.
                </note>
             </cbml:panel>
-            <cbml:panel n="4" characters="Saxton-Hale">
-               <cbml:balloon type="speech" who="Saxton-Hale"> Tell those <emph rend="b">men
+            <cbml:panel n="4" characters="Hale">
+               <cbml:balloon type="speech" who="Hale"> Tell those <emph rend="b">men
                      down there</emph> you can "climb to a safe altitude"! / Me, I'd rather get down
                   there and tell them myself... </cbml:balloon>
-               <cbml:balloon type="speech" who="Saxton-Hale"> with <emph rend="b">my bare
+               <cbml:balloon type="speech" who="Hale"> with <emph rend="b">my bare
                      hands!</emph>
                </cbml:balloon>
                <note type="pageDesc"> Saxton Hale speaks in front of a red background, with an
                   aggressive look on his face. </note>
             </cbml:panel>
-            <cbml:panel n="5" characters="Jerry Saxton-Hale">
+            <cbml:panel n="5" characters="Jerry Hale">
                <cbml:balloon type="speech" who="Jerry"> At least take the backup parachute! </cbml:balloon>
-               <cbml:balloon type="speech" who="Saxton-Hale">
+               <cbml:balloon type="speech" who="Hale">
                   <emph rend="b">There's probably no time!</emph>
                </cbml:balloon>
                <floatingText rend="red block lettering">
@@ -302,7 +302,7 @@
                      <l>BRAVE JUMP!</l>
                   </body>
                </floatingText>
-               <note type="pageDesc"> Saxton-Hale jumps out of the plane, with the same blue sky in
+               <note type="pageDesc"> Hale jumps out of the plane, with the same blue sky in
                   the background. </note>
             </cbml:panel>
          </div>
@@ -314,7 +314,7 @@
                      break</emph> from widening in surprise and your comic-holding hands <emph
                         rend="b">fall off your very arms</emph> when you get a look at the rest
                   of this action-packed ish, starring me... </cbml:caption>
-               <cbml:balloon type="speech" who="Saxton-Hale" rend="red bubble letters"> SAXTON
+               <cbml:balloon type="speech" who="Hale" rend="red bubble letters"> SAXTON
                   HAAAALE! </cbml:balloon>
                <cbml:caption rend="yellow text box"> If this sensational issue doesn't stop
                   your adrenaline-gorged heart for <emph rend="b">five entire
@@ -333,14 +333,14 @@
          <div type="page" n="8">
             <cbml:caption rend="yellow text box"> ...barrel roll directing into my office at
                Mann Co. Headquarters! </cbml:caption>
-            <cbml:panel n="1" characters="Saxton-Hale">
+            <cbml:panel n="1" characters="Hale">
                <!-- I'm not exactly sure how we want to handle connected bubbles of text, is this something that should be noted as an attribute? -->
                <!-- For now, I've decided to separate the text bubbles with a foreward slash to indicate a separate but connected bubble -->
-               <cbml:balloon type="speech" who="Saxton-Hale"> Mr. Bidwell! How did my landing
+               <cbml:balloon type="speech" who="Hale"> Mr. Bidwell! How did my landing
                   compare to yesterday's? /Be frank with me now. I'm made of stern
                   stuff.</cbml:balloon>
-               <cbml:balloon type="speech" who="Saxton-Hale"> Hup hup! </cbml:balloon>
-               <cbml:balloon type="speech" who="Saxton-Hale"> Hahrup! </cbml:balloon>
+               <cbml:balloon type="speech" who="Hale"> Hup hup! </cbml:balloon>
+               <cbml:balloon type="speech" who="Hale"> Hahrup! </cbml:balloon>
                <floatingText rend="pink block letters">
                   <body>
                      <l> FLAWLESS ROLL! </l>
@@ -350,16 +350,16 @@
                   while performing a barrel roll. A distant shot of him dropping in from the plane
                   with a parachute is displayed underneath the rest of the panels. </note>
             </cbml:panel>
-            <cbml:panel n="2" characters="Mr-Bidwell Mr-Reddy">
-               <cbml:balloon type="speech" who="Mr-Bidwell"> Tears were brought to the eyes, Sir. /
+            <cbml:panel n="2" characters="Bidwell Reddy">
+               <cbml:balloon type="speech" who="Bidwell"> Tears were brought to the eyes, Sir. /
                   Your breakfast steak. </cbml:balloon>
                <note type="pageDesc"> Mr. Bidwell and Mr. Reddy greet Saxton Hale in the kitchen,
                   holdng a plate of steak and a clipboard. </note>
             </cbml:panel>
-            <cbml:panel n="3" characters="Saxton-Hale Mr-Reddy">
-               <cbml:balloon type="speech" who="Saxton-Hale"> It's the most important steak of the
+            <cbml:panel n="3" characters="Hale Reddy">
+               <cbml:balloon type="speech" who="Hale"> It's the most important steak of the
                   day, Bidwell. / Mr. Reddy! How's accounts? </cbml:balloon>
-               <cbml:balloon type="speech" who="Mr-Reddy"> You're now the sixth richest man in
+               <cbml:balloon type="speech" who="Reddy"> You're now the sixth richest man in
                   America, Mr. Hale. </cbml:balloon>
                <floatingText rend="black block letters">
                   <body>
@@ -369,18 +369,18 @@
             </cbml:panel>
             <note type="pageDesc"> Saxton Hale rips a chunk of steak off and eats it, as Mr. Reddy
                reads to him off of a clipboard. </note>
-            <cbml:panel n="4" characters="Saxton-Hale Mr-Reddy">
-               <cbml:balloon type="speech" who="Saxton-Hale"> Top drawer! Send the other five a
+            <cbml:panel n="4" characters="Hale Reddy">
+               <cbml:balloon type="speech" who="Hale"> Top drawer! Send the other five a
                   congratualtory bouquet and my "You're a dead man" form letter. / What's next? </cbml:balloon>
                <note type="pageDesc"> Saxton Hale stands in front of a bear statue, pointing up to
                   the sky as Mr. Reddy stands behind him. </note>
             </cbml:panel>
          </div>
          <div type="page" n="9">
-            <cbml:panel n="1" characters="Saxton-Hale Mr-Reddy">
-               <cbml:balloon type="speech" who="Mr-Reddy"> There's a group of hippies protesting the
+            <cbml:panel n="1" characters="Hale Reddy">
+               <cbml:balloon type="speech" who="Reddy"> There's a group of hippies protesting the
                   parking lot again... / Guns, Sir. They're against them. </cbml:balloon>
-               <cbml:balloon type="speech" who="Saxton-Hale"> The <emph rend="b"
+               <cbml:balloon type="speech" who="Hale"> The <emph rend="b"
                      >scoundrels!</emph> What have they got their smelly ponytails in a twist about
                   <emph rend="b">this</emph> time? / Fine. I'll beat tem to death with
                   <emph rend="b">my bare hands!</emph>
@@ -388,27 +388,27 @@
                <note type="pageDesc"> The two men walk through through a large building, towards the
                   mentioned parking lot. </note>
             </cbml:panel>
-            <cbml:panel n="2" characters="Saxton-Hale Mr-Reddy">
-               <cbml:balloon type="speech" who="Mr-Reddy"> TF Industries is holding on line one,
+            <cbml:panel n="2" characters="Hale Reddy">
+               <cbml:balloon type="speech" who="Reddy"> TF Industries is holding on line one,
                   Sir. </cbml:balloon>
-               <cbml:balloon type="speech" who="Saxton-Hale"> What? Why didn't you <emph
+               <cbml:balloon type="speech" who="Hale"> What? Why didn't you <emph
                      rend="b">say</emph> so, man! Don't leave <emph rend="b"
                         >Helen</emph> on hold! </cbml:balloon>
                <note type="pageDesc"> Mr. Reddy stands behind Saxton, holding a large brick phone in
                   hand. Saxton looks back with frustration. </note>
             </cbml:panel>
-            <cbml:panel n="3" characters="Saxton-Hale Miss-Pauling">
-               <cbml:balloon type="speech" who="Saxton-Hale"> Helennnn! You chain-smoking
+            <cbml:panel n="3" characters="Hale Pauling">
+               <cbml:balloon type="speech" who="Hale"> Helennnn! You chain-smoking
                   seductress! / Do you still like steak dinners and sex with handsome men? </cbml:balloon>
-               <cbml:balloon type="speech" who="Miss-Pauling"> Mister Hale, this is Miss Pauling. I
+               <cbml:balloon type="speech" who="Pauling"> Mister Hale, this is Miss Pauling. I
                   <emph rend="b">work</emph> for Miss... </cbml:balloon>
             </cbml:panel>
             <note type="pageDesc"> Saxton Hale speaks into the phone with a confident look on his
                face. </note>
-            <cbml:panel n="5" characters="Saxton-Hale">
+            <cbml:panel n="5" characters="Hale">
                <cbml:balloon type="speech"> Excellent! My offer still stands! What can I do for you,
                   Miss Pauling? </cbml:balloon>
-               <cbml:balloon type="speech" who="Miss-Pauling"> We need to resolve a, uh... / <emph
+               <cbml:balloon type="speech" who="Pauling"> We need to resolve a, uh... / <emph
                      rend="b">Personnel problem.</emph> / We were hoping you could provide
                   the incentivies. </cbml:balloon>
                <floatingText rend="red block lettering">
@@ -421,44 +421,44 @@
             </cbml:panel>
          </div>
          <div type="page" n="10">
-            <cbml:panel n="1" characters="Saxton-Hale">
-               <cbml:balloon type="speech" who="Saxton-Hale"> It just so happens my boys in R and D
+            <cbml:panel n="1" characters="Hale">
+               <cbml:balloon type="speech" who="Hale"> It just so happens my boys in R and D
                   sent up a few crates of <emph rend="b">highly experimental new
                      ordinance</emph> they wanted me to take for a text drive. / Why don't I send
                   those over? Hold on, Bidwell's gesturing frantically to me about something... </cbml:balloon>
                <note type="pageDesc"> Saxton Hale speaks menacingly into the phone while looking
                   away. </note>
             </cbml:panel>
-            <cbml:panel n="2" characters="Mr-Bidwell Saxton-Hale">
-               <cbml:balloon type="speech" who="Mr-Bidwell">
+            <cbml:panel n="2" characters="Bidwell Hale">
+               <cbml:balloon type="speech" who="Bidwell">
                   <emph rend="b">Sir,</emph> those were the weapons you asked us to send up
                   so you could <emph rend="b"> destroy</emph>them before the senate
                   investigation. </cbml:balloon>
-               <cbml:balloon type="speech" who="Saxton-Hale"> I have no idea what you're-- Ooo,
+               <cbml:balloon type="speech" who="Hale"> I have no idea what you're-- Ooo,
                   right. That poor monkey. </cbml:balloon>
-               <cbml:balloon type="speech" who="Saxton-Hale"> Well, nevermind that. Helping Helen
+               <cbml:balloon type="speech" who="Hale"> Well, nevermind that. Helping Helen
                   out's more important.</cbml:balloon>
                <note type="pageDesc"> Mr. Bidwell stands with a finger pointed to his lip. Saxton
                   holds the phone next to him. </note>
             </cbml:panel>
-            <cbml:panel n="3" characters="Saxton-Hale">
-               <cbml:balloon type="speech" who="Saxton-Hale"> Also getting someone else's
+            <cbml:panel n="3" characters="Hale">
+               <cbml:balloon type="speech" who="Hale"> Also getting someone else's
                   fingerprints on these things as soon as possible. I won't lie to you Bidwell, we
                   are in a <emph rend="b">lot</emph> of trouble here. </cbml:balloon>
-               <cbml:balloon type="speech" who="Saxton-Hale"> Miss Pauling, still there? </cbml:balloon>
+               <cbml:balloon type="speech" who="Hale"> Miss Pauling, still there? </cbml:balloon>
                <note type="pageDesc"> Saxton speaks into the phone with a serious expression in a
                   black background. </note>
             </cbml:panel>
-            <cbml:panel n="5" characters="Miss-Pauling Saxton-Hale">
-               <cbml:balloon type="speech" who="Miss-Pauling"> Um... I heard <emph rend="b"
+            <cbml:panel n="5" characters="Pauling Hale">
+               <cbml:balloon type="speech" who="Pauling"> Um... I heard <emph rend="b"
                      >everything</emph> you said, Mister Hale. </cbml:balloon>
-               <cbml:balloon type="speech" who="Saxton-Hale"> Fannnntastic. And? </cbml:balloon>
-               <cbml:balloon type="speech" who="Miss-Pauling"> We'll take them. </cbml:balloon>
+               <cbml:balloon type="speech" who="Hale"> Fannnntastic. And? </cbml:balloon>
+               <cbml:balloon type="speech" who="Pauling"> We'll take them. </cbml:balloon>
                <note type="pageDesc"> Miss Pauling sits in her office, speaking on the phone to
                   Saxton on the other end. </note>
             </cbml:panel>
-            <cbml:panel n="6" characters="Mr-Reddy Saxton-Hale">
-               <cbml:balloon type="speech" who="Saxton-Hale"> Problem solved! / Mr. Reddy! We're
+            <cbml:panel n="6" characters="Reddy Hale">
+               <cbml:balloon type="speech" who="Hale"> Problem solved! / Mr. Reddy! We're
                   going to need some ambulances! Mr. Bidwell! I need an alibi that puts me anywhere
                   but the parking lot for the next seven minutes! / Let's go kill some hippies! </cbml:balloon>
                <note type="pageDesc">Saxton speaks out of frame as he throws the phone to Mr. Reddy.
