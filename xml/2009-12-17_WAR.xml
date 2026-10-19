@@ -756,11 +756,83 @@
          </div>
          
          <div type="page" n="16">
+            <note type="pageDesc">In a black and white styled apartment, a hired hand attempts to visit one Mister Jane Doe.</note>
+            <cbml:panel n="1" characters="HiredHand">
+               <cbml:balloon type="speech" who="HiredHand">
+                  This is the place.
+               </cbml:balloon>
+               <note type="panelDesc">The hired hand shuffles through a dark apartment building.</note>
+            </cbml:panel>
             
+            <cbml:panel n="2">
+               <floatingText type="diagetic">
+                  <body>
+                     <p>
+                        MISTER JANE DOE
+                     </p>
+                     <p>
+                        NO SOLICITORS! DO NOT TEST ME
+                     </p>
+                  </body>
+               </floatingText>
+               <note type="panelDesc">Notes on "Mister Jane Doe's" door.</note>
+            </cbml:panel>
+            
+            <cbml:panel n="3" characters="HiredHand Administrator">
+               <cbml:balloon type="speech" who="Administrator">
+                  Hht. For the money we paid you to find it, it had better be.
+               </cbml:balloon>
+               <cbml:balloon type="speech" who="Administrator">
+                  You're wasting my time. Go knock.
+               </cbml:balloon>
+               <note type="panelDesc">The hired hand reaches Soldier's door. Bullet holes and two large circular flaps are visible.</note>
+            </cbml:panel>
+            
+            <cbml:panel n="4">
+               <cbml:balloon type="sound">KNOCK KNOCK</cbml:balloon>
+               <cbml:balloon type="speech" who="Administrator">
+                  Good.
+               </cbml:balloon>
+               <cbml:balloon type="speech" who="Administrator">
+                  Now duck.
+               </cbml:balloon>
+               <note type="panelDesc">The hired hand knocks on the door.</note>
+            </cbml:panel>
          </div>
          
          <div type="page" n="17">
+            <note type="pageDesc">Soldier tries and fails to kill the hired hand.</note>
+            <cbml:panel n="1" characters="HiredHand Soldier">
+               <cbml:balloon type="sound"><emph rend="large red outlined">CH-CHOOM CH-CHOOM</emph></cbml:balloon>
+               <note type="panelDesc">Two shotgun blasts shoot through the door, lighting up the room.</note>
+            </cbml:panel>
             
+            <cbml:panel n="2" characters="HiredHand Soldier">
+               <cbml:balloon type="speech" who="Soldier" xml:id="p17b01" next="p17b02">
+                  Who is it?
+                  <note type="balloonDesc">Music notes surround this balloon.</note>
+               </cbml:balloon>
+               <cbml:balloon type="speech" who="Soldier" xml:id="p17b02">
+                  Say, friend! Why don't you move a little closer to the door?
+               </cbml:balloon>
+               <note type="panelDesc">Soldier attempts to bring the "intruder" close to the door.</note>
+            </cbml:panel>
+            
+            <cbml:panel n="3">
+               
+            </cbml:panel>
+            
+            <cbml:panel n="4">
+               
+            </cbml:panel>
+            
+            <cbml:panel n="5">
+               
+            </cbml:panel>
+            
+            <cbml:panel n="6">
+               
+            </cbml:panel>
          </div>
          
          <div type="page" n="18">
