@@ -30,3 +30,7 @@ h3{
     color:chocolate;
     
 }
+/**/
+.inline{
+    display: inline-block;
+}
