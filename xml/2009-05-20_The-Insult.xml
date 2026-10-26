@@ -48,11 +48,11 @@
                         <l><emph rendition="b">HAW HAW!</emph></l>
                         What are you going to do - run five miles away and <emph rendition="b">shoot</emph> me?
                     </cbml:balloon>
-                    <cbml:balloon type="speech" who="Sniper">
+                    <cbml:balloon type="speech" who="Sniper" xml:id="p1-b1" next="#p1-b2">
                         <l>Ye-</l>
                         <l><emph rendition="b">No...</emph></l>
                     </cbml:balloon>
-                    <cbml:balloon type="thought" who="Sniper">
+                    <cbml:balloon type="thought" who="Sniper" xml:id="p1-b2">
                         How did he <emph rendition="b">know?</emph>
                     </cbml:balloon>
                 </cbml:panel>
@@ -67,11 +67,11 @@
                 </cbml:panel>
                 
                 <cbml:panel n="5" characters="Sniper">
-                    <cbml:balloon type="speech" who="Sniper">
+                    <cbml:balloon type="speech" who="Sniper" xml:id="p1-b3" next="#p1-b4">
                         I'm <emph rendition="b">sick</emph> and <emph rendition="b">tired</emph> of getting picked
                         on by <emph rendition="b">MEN MY OWN SIZE!</emph>
                     </cbml:balloon>
-                    <cbml:balloon type="speech" who="Sniper">
+                    <cbml:balloon type="speech" who="Sniper" xml:id="p1-b4">
                         What's this? <emph rendition="b">JARATE?</emph>
                     </cbml:balloon>
                     <note type="panelDesc">
@@ -83,10 +83,10 @@
                     <cbml:balloon type="speech" who="Sniper">
                         <emph rendition="i">Boy!</emph> Those Saxton Hale Jarate pills <emph rendition="b">TRIPLED</emph> the size of my kidneys!
                     </cbml:balloon>
-                    <cbml:balloon type="speech" who="Sniper">
+                    <cbml:balloon type="speech" who="Sniper" xml:id="p1-b5" next="#p1-b6">
                         And thanks to my Saxton Hale Pain Tonic, I can barely even <emph rendition="b">FEEL</emph> my organs shutting down! He thought of everything!
                     </cbml:balloon>
-                    <cbml:balloon type="speech" who="Sniper">
+                    <cbml:balloon type="speech" who="Sniper" xml:id="p1-b6">
                         That Spy won't know what <emph rendition="b">hit</emph> him!
                     </cbml:balloon>
                     <floatingText type="non-diegetic">
@@ -102,10 +102,10 @@
                 </cbml:panel>
                 
                 <cbml:panel n="7" characters="Sniper Spy">
-                    <cbml:balloon type="speech" who="Sniper">
+                    <cbml:balloon type="speech" who="Sniper" xml:id="p1-b7" next="#p1-b8">
                         You again? <emph rendition="b">Here's</emph> something I owe you!
                     </cbml:balloon>
-                    <cbml:balloon type="speech" who="Sniper">
+                    <cbml:balloon type="speech" who="Sniper" xml:id="p1-b8">
                         <emph rendition="b">FROM MY BODY!</emph>
                     </cbml:balloon>
                     <floatingText subtype="symbol" type="diagetic">
