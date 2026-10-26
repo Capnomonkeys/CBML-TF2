@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/out/cbml.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cbml="http://www.cbml.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Site Index for Team Fortress Project</title>
+            <author>Lily Suppa-Duckworth</author>
+            <author>Nicholas Groemminger</author>
+            <author>Kaa Rivera</author>
+    
+            <sponsor notBefore="2026-09">DIGIT 110 Text Encoding class at Penn State Erie, The Behrend College</sponsor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>CBML Team Fortress</authority>
+            <!-- Decide what you want to do here! -->
+           <availability>
+                  <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
+                     License</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital: no previous source exists.</p>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <listChange>
+            <!--add your changes above this! See sample entries below. -->
+            <change when="2026-10-26" who="#ebb">Initiate change log during project team meeting.</change>
+            
+           <!-- <change when="2024-09-03" who="#ebb">107 new entries and many updated entries in historical persons, organizations, places, plants/animals, and bibl entries, largely from completing work on Mitford’s Journal, as well as staff updates.</change>
+            <change when="2024-06-02" who="#lmw"> Establishing new Si-local file. Correcting great farmhouse entries. Updating staff entries. proofing fict people sections. preparing to add new ids from Hofland letters, Weston Grove, Antigone poems.</change> -->
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="references"> 
+            <div type="maps">
+               
+            </div>
+            <div type="items">
+               <list sortKey="weaponry">
+                  <item xml:id="eyelander">
+                     <name>Eyelander weapon</name>
+                     <note>What even is this?</note>
+                  </item>
+                  
+               </list>
+               
+            </div>
+         </div>
+      
+      </body>
+   </text>
+</TEI>

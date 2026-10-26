@@ -1117,5 +1117,22 @@
             </cbml:panel>
          </div>
       </body>
+      <back>
+        <div type="references"> 
+           <div type="maps">
+            
+         </div>
+         <div type="items">
+            <list sortKey="weaponry">
+               <item xml:id="eyelander">
+                  <name>Eyelander weapon</name>
+                  <note>What even is this?</note>
+               </item>
+               
+            </list>
+            
+         </div>
+        </div>
+      </back>
    </text>
 </TEI>
