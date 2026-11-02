@@ -5,9 +5,9 @@
       <fileDesc>
          <titleStmt>
             <title>Site Index for Team Fortress Project</title>
-            <author>Lily Suppa-Duckworth</author>
-            <author>Nicholas Groemminger</author>
-            <author>Kaa Rivera</author>
+            <author xml:id ="LSD">Lily Suppa-Duckworth</author>
+            <author xml:id = "NG">Nicholas Groemminger</author>
+            <author xml:id = "KR">Kaa Rivera</author>
     
             <sponsor notBefore="2026-09">DIGIT 110 Text Encoding class at Penn State Erie, The Behrend College</sponsor>
          </titleStmt>
@@ -41,14 +41,92 @@
             </div>
             <div type="items">
                <list sortKey="weaponry">
-                  <item xml:id="eyelander">
-                     <name>Eyelander weapon</name>
-                     <note>What even is this?</note>
+                  <item xml:id="jarate">
+                     <name>Jarate Master</name>
+                     <desc></desc>
                   </item>
-                  
+                  <item xml:id="jarate">
+                     <name>Jarate Master</name>
+                     <desc></desc>
+                  </item>
                </list>
-               
+               <div type = "characters">
+                  <list sortKey = "reoccuring-characters">
+                     <item xml:id = "sc">
+                        <name>Scout</name>
+                        <desc></desc>
+                     </item>
+                     <item xml:id = "sp">
+                        <name>Spy</name>
+                        <desc></desc>
+                     </item>
+                     <item xml:id = "sn">
+                        <name>Sniper</name>
+                        <desc></desc>
+                     </item>
+                     <item xml:id = "so">
+                        <name>Soldier</name>
+                        <desc></desc>
+                     </item>
+                     <item xml:id = "py">
+                        <name>Pyro</name>
+                        <desc></desc>
+                     </item>
+                     <item xml:id = "de">
+                        <name>Demoman</name>
+                        <desc></desc>
+                     </item>
+                     <item xml:id = "he">
+                           <name>Heavy Weapons Guy</name>
+                           <desc></desc>
+                        </item>
+                     <item xml:id = "en">
+                        <name>Engineer</name>
+                        <desc></desc>
+                     </item>
+                     <item xml:id = "me">
+                        <name>Medic</name>
+                        <desc></desc>
+                     </item>
+                     <item xml:id = "ad">
+                        <name>Administrator</name>
+                        <desc></desc>
+                     </item>
+                     <item xml:id = "mp">
+                        <name>Ms. Pauling</name>
+                        <desc></desc>
+                     </item>
+                     <item xml:id = "sh">
+                        <name>Saxton-Hale</name>
+                        <desc></desc>
+                     </item>
+                     <item xml:id = "mb">
+                        <name>Mr. Bidwell</name>
+                        <desc></desc>
+                     </item>
+                     <item xml:id = "mr">
+                        <name>Mr. Reddy</name>
+                        <desc></desc>
+                     </item>
+                  </list>
+                  
+               </div>
             </div>
+            <div type = "mechanics">
+               <list sortKey = "in-game-refs">
+                  <item xml:id ="cp">
+                     <name>Capture Point</name>
+                     <desc>
+                        
+                     </desc>
+                  </item>
+                  <item xml:id ="int">
+                     <name>Intellegence</name>
+                     <desc>    </desc>
+                  </item>
+               </list>
+            </div>
+            
          </div>
       
       </body>

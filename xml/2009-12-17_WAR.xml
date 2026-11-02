@@ -21,6 +21,7 @@
       <body>
          <!--TODO: Link text bubbles before page 11. Check through text for typos or missed tags/attributes.-->
          <!--Look at ways to better represent linked bubbles (directly connected vs thin strands)-->
+         <!--TODO: Find a way to link the si file to this document as a schema -->
          <div type="page" n="1">
             <note type="pageDesc"> The Administrator sits in a massive room of screens, giving
                orders to RED and BLU team over a large intercom. </note>
