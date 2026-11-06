@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../schemas/out/cbml.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="si-sqf.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cbml="http://www.cbml.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -25,7 +26,7 @@
          <div type="page" n="1">
             <note type="pageDesc"> The Administrator sits in a massive room of screens, giving
                orders to RED and BLU team over a large intercom. </note>
-            <cbml:panel n="1" characters="Administrator">
+            <cbml:panel n="1" characters="#ad">
                <cbml:caption type="heading"> One week ago... </cbml:caption>
                <cbml:balloon type="sound">CLICK</cbml:balloon>
                <note type="panelDesc">The Administrator clicks a lighter on, and lights a
@@ -1120,5 +1121,19 @@
             </cbml:panel>
          </div>
       </body>
+      <back>
+         <div type="characters"> 
+            <list type="one-offs">
+               <item xml:id = "jerry">
+                  <name>Jerry</name>
+                  <desc></desc>
+               </item>
+               <item xml:id = "hiredHand">
+                  <name>Hired Hand</name>
+                  <desc></desc>
+               </item>
+            </list>
+         </div>
+      </back>
    </text>
 </TEI>
