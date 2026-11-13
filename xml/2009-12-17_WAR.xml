@@ -1,19 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../schemas/out/cbml.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schemas/out/cbml.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!-- -->
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cbml="http://www.cbml.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>WAR!</title>
-            <author>Valve Corporation</author>
-            <author>Michael Avon Oeming</author>
-            <!--Was unable to find who specifically wrote this comic. Oeming was the artist, unsure if there's a tag specifically showing that.-->
+            <author>Jay Pinkerton</author>
+            <author>Erik Wolpaw</author>
+            <author role="illustrator">Michael Avon Oeming</author>
          </titleStmt>
+            <editionStmt>
+               <edition>CBML edition of Team Fortress</edition>
+               <editor>Lily Suppa-Duckworth</editor>
+               <editor>Kaa Rivera</editor>
+               <editor>Nick Groemminger</editor>
+             <respStmt>
+                  <resp>This encoding prepared by</resp>
+                  <name>Lily Suppa-Duckworth</name>
+               </respStmt>
+            </editionStmt> 
          <publicationStmt>
-            <p>By Valve Corporation. Published December 17th, 2009.</p>
+            <p>By Valve Corporation. Published <date when="2009-12-17">December 17th, 2009</date>.</p>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital: no previous source exists.</p>
+            <p><!-- If this is true: -->Authors are not listed on the webcomic, only the illustrator. The author team was identified 
+               from <ref target="https://en.wikipedia.org/wiki/Team_Fortress_Comics">Wikipedia’s Team Fortress page</ref></p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
