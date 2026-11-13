@@ -7,8 +7,7 @@
       <fileDesc>
          <titleStmt>
             <title>WAR!</title>
-            <author>Jay Pinkerton</author>
-            <author>Erik Wolpaw</author>
+            <author role="writer">Unknown Valve Corporation Employee(s)</author>
             <author role="illustrator">Michael Avon Oeming</author>
          </titleStmt>
             <editionStmt>
@@ -19,6 +18,7 @@
              <respStmt>
                   <resp>This encoding prepared by</resp>
                   <name>Lily Suppa-Duckworth</name>
+                  <name>Kaa Rivera</name>
                </respStmt>
             </editionStmt> 
          <publicationStmt>
