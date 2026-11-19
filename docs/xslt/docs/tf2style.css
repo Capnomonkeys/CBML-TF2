@@ -1,0 +1,77 @@
+head{
+    
+}
+
+body{
+    background: DimGrey;
+    color: chocolate;
+}
+
+div[class="panel"]{
+    margin: auto;
+    text-align: center;
+    background: #F8F8FF;
+    width: 70%;
+    box-shadow: 5px 5px 2px #454545;
+}
+
+section[class="page"]{
+    width: 60%;
+    margin: auto;
+    background: rgba(255, 218, 185, 0.9);
+    box-shadow: 10px 10px 5px grey;
+}
+
+div[class="balloon speech"]{
+    font-size: 25px;
+    color: #000000;
+}
+
+.balloon[speaker="administrator"]{
+    color: #800080;
+}
+
+.balloon[speaker="pauling"]{
+    color: #9932CC;
+}
+
+.balloon[speaker="hale"]{
+    color: #8B4513;
+}
+
+.balloon[speaker="scout"]{
+    color: #4682B4;
+}
+
+.balloon[speaker="soldier"]{
+    color: #000080;
+}
+
+.balloon[speaker="pyro"]{
+    color: #B22222;
+}
+
+.balloon[speaker="demoman"]{
+    color: #696969;
+}
+
+.balloon[speaker="heavy"]{
+    color: #8B0000;
+}
+
+.balloon[speaker="engineer"]{
+    color: #DEB887;
+}
+
+.balloon[speaker="medic"]{
+    color: #FF4500;
+}
+
+.balloon[speaker="sniper"]{
+    color: #DAA520;
+}
+
+.balloon[speaker="spy"]{
+    color: #191970;
+}
+

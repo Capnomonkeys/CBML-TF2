@@ -54,7 +54,7 @@
        <html>
            <head>
                <title>Table of Contents for the Team Fortress Reading View</title>
-               <link rel="stylesheet" type="text/css" href="style.css"/> 
+               <link rel="stylesheet" type="text/css" href="tf2style.css"/> 
            </head>
            <body>
                <h1>Table of Contents</h1>
@@ -91,7 +91,7 @@
                     <html>
                         <head><title><xsl:apply-templates 
                                     select="descendant::titleStmt/title" mode="titleLine"/></title>
-                            <link rel="stylesheet" type="text/css" href="style.css"/> 
+                            <link rel="stylesheet" type="text/css" href="tf2style.css"/> 
                         </head>
                         <body>
                             
@@ -148,7 +148,7 @@
          idea to set an <xsl:if> to process ONLY when they do. <xsl:if> is a 
          simple version of <xsl:choose>. -->
            <xsl:if test="@characters"><span class="tinyInfo">
-              <xsl:text>Character in this panel: </xsl:text>
+              <xsl:text>Character(s) in this panel: </xsl:text>
               <xsl:value-of select="@characters"/>
             </span>
            </xsl:if> 
@@ -188,6 +188,10 @@
             <!-- ebb: What to do if a balloon isn't for speech? This is a good place
             to try <xsl:choose>. 
             -->
+            <xsl:if test="@who">
+                <xsl:attribute name="speaker" select="lower-case(normalize-space(@who))"/>
+            </xsl:if>
+            <!--lsd: adds data for the speaker for css purposes-->
           <xsl:choose> 
               <xsl:when test="@type='speech'">
               <span class="who" 
