@@ -39,7 +39,7 @@
          <div type="page" n="1">
             <note type="pageDesc"> The Administrator sits in a massive room of screens, giving
                orders to RED and BLU team over a large intercom. </note>
-            <cbml:panel n="1" characters="Administrator">
+            <cbml:panel n="1" characters="#ad">
                <cbml:caption type="heading"> One week ago... </cbml:caption>
                <cbml:balloon type="sound">CLICK</cbml:balloon>
                <note type="panelDesc">The Administrator clicks a lighter on, and lights a
@@ -1134,5 +1134,19 @@
             </cbml:panel>
          </div>
       </body>
+      <back>
+         <div type="characters"> 
+            <list type="one-offs">
+               <item xml:id = "jerry">
+                  <name>Jerry</name>
+                  <desc></desc>
+               </item>
+               <item xml:id = "hiredHand">
+                  <name>Hired Hand</name>
+                  <desc></desc>
+               </item>
+            </list>
+         </div>
+      </back>
    </text>
 </TEI>
